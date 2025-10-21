@@ -7,38 +7,57 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>DataMetrixs — Portafolio de Análisis de Datos</h1>
-    <p>Walter Urbano Leyva & [Nombre de tu colega]</p>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">DataMetrixs</h1>
+      <nav>
+        <a href="#about">Sobre nosotros</a>
+        <a href="#projects">Proyectos</a>
+        <a href="mailto:jowaciau@gmail.com">Contacto</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="about">
-    <h2>Sobre nosotros</h2>
-    <p>Somos analistas de datos apasionados por transformar información en conocimiento. 
-    Desarrollamos proyectos en Python, SQL, Power BI y herramientas de visualización.</p>
-  </section>
-
-  <section class="projects">
-    <h2>Proyectos</h2>
-    <div class="grid">
-      <article>
-        <h3>Análisis de Sentimiento</h3>
-        <p>Exploración de comentarios en redes sociales con Python y NLP.</p>
-        <a href="projects/sentiment.html">Ver más</a>
-      </article>
-      <article>
-        <h3>Dashboard de Ventas</h3>
-        <p>Visualización interactiva con Power BI y datos reales.</p>
-        <a href="#">Ver más</a>
-      </article>
+  <section class="hero">
+    <div class="container">
+      <h2>Portafolio de Análisis de Datos</h2>
+      <p>Walter Urbano Leyva & José Carlos</p>
     </div>
   </section>
 
-  <footer>
-    <p>© 2025 DataMetrixs —
-       <a href="mailto:tuemail@example.com">Contacto</a> ·
-       <a href="https://github.com/DataMetrixs">GitHub</a>
-    </p>
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>Sobre nosotros</h2>
+      <p>Somos analistas de datos apasionados por transformar información en conocimiento. 
+      Desarrollamos proyectos en Python, SQL, Power BI y herramientas de visualización para resolver problemas reales de negocio.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Proyectos</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Análisis de Sentimiento</h3>
+          <p>Exploración de comentarios en redes sociales con Python y NLP.</p>
+          <a href="projects/sentiment.html" class="btn">Ver más</a>
+        </article>
+        <article class="card">
+          <h3>Dashboard de Ventas</h3>
+          <p>Visualización interactiva con Power BI y datos reales.</p>
+          <a href="#" class="btn">Ver más</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 DataMetrixs — 
+        <a href="mailto:jowaciau@gmail.com">Contacto</a> · 
+        <a href="https://github.com/DataMetrixs" target="_blank">GitHub</a>
+      </p>
+    </div>
   </footer>
 </body>
 </html>
