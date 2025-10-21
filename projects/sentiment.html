@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Análisis de Sentimiento — DataMetrixs</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo"><a href="../index.html" style="text-decoration:none; color:inherit;">DataMetrixs</a></h1>
+      <nav>
+        <a href="../index.html#about">Sobre nosotros</a>
+        <a href="../index.html#projects">Proyectos</a>
+        <a href="mailto:jowaciau@gmail.com">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO DEL PROYECTO -->
+  <section class="hero">
+    <div class="container">
+      <h2>Análisis de Sentimiento</h2>
+      <p>Walter Urbano Leyva & José Carlos</p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Tarjeta resumen -->
+      <article class="card" style="margin-bottom:1.5rem;">
+        <h3 style="margin-bottom:.5rem;">Resumen</h3>
+        <p>
+          Proyecto de NLP para clasificar el sentimiento (positivo/neutral/negativo) en comentarios
+          de usuarios. Incluye limpieza de texto, tokenización, vectorización y un modelo base
+          (por ejemplo, Logistic Regression / SVM). Se reportan métricas de precisión, recall y F1.
+        </p>
+      </article>
+
+      <!-- Imagen de portada (opcional) -->
+      <article class="card" style="margin-bottom:1.5rem;">
+        <h3 style="margin-bottom:.5rem;">Vista general</h3>
+        <!-- Reemplaza la ruta por tu imagen real -->
+        <img src="../img/sentiment-cover.jpg" alt="Portada análisis de sentimiento"
+             style="width:100%; border-radius:8px; display:block; margin: .5rem 0 0 0;">
+        <p style="margin-top:.75rem; color:#cfe0f5;">
+          Sube tu imagen a <code>/img/sentiment-cover.jpg</code> y ajusta esta ruta si usas otro nombre.
+        </p>
+      </article>
+
+      <!-- Detalles técnicos -->
+      <article class="card" style="margin-bottom:1.5rem;">
+        <h3 style="margin-bottom:.5rem;">Detalles técnicos</h3>
+        <ul style="margin-left:1rem;">
+          <li><strong>Lenguajes/Librerías:</strong> Python, pandas, scikit-learn, nltk/spacy, matplotlib/plotly.</li>
+          <li><strong>Dataset:</strong> Indica la fuente (Kaggle/propio). Tamaño y variables clave.</li>
+          <li><strong>Preprocesamiento:</strong> minúsculas, limpieza de signos, stopwords, lematización (opcional).</li>
+          <li><strong>Features:</strong> Bag-of-Words / TF-IDF; n-grams si aplica.</li>
+          <li><strong>Modelo:</strong> Regresión Logística / SVM (o el que uses).</li>
+          <li><strong>Validación:</strong> train/test split o k-fold; métricas: accuracy, precision, recall, F1.</li>
+        </ul>
+      </article>
+
+      <!-- Resultados -->
+      <article class="card" style="margin-bottom:1.5rem;">
+        <h3 style="margin-bottom:.5rem;">Resultados</h3>
+        <p>Resumen de resultados con números (ejemplo):</p>
+        <ul style="margin-left:1rem;">
+          <li>Accuracy: 0.87</li>
+          <li>Precision: 0.86 · Recall: 0.85 · F1: 0.85</li>
+        </ul>
+        <p style="margin-top:.5rem;">Incluye hallazgos cualitativos (palabras más influyentes, ejemplos de aciertos/errores, etc.).</p>
+      </article>
+
+      <!-- Enlaces -->
+      <article class="card" style="margin-bottom:1.5rem;">
+        <h3 style="margin-bottom:.5rem;">Reproducibilidad</h3>
+        <p>
+          🔗 <a class="btn" href="https://github.com/DataMetrixs/sentiment_test_1" target="_blank">Repositorio / Notebook</a>
+          &nbsp;&nbsp;
+          🔗 <a class="btn" href="#" target="_blank">Demo (opcional)</a>
+        </p>
+        <p style="margin-top:.5rem; color:#cfe0f5;">
+          Actualiza los enlaces al repo/notebook y (si tienes) una demo en Streamlit/HF Spaces.
+        </p>
+      </article>
+
+      <!-- Botón volver -->
+      <p style="margin-top:1rem;">
+        <a class="btn" href="../index.html#projects">← Volver al portafolio</a>
+      </p>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 DataMetrixs — 
+        <a href="mailto:jowaciau@gmail.com">Contacto</a> · 
+        <a href="https://github.com/DataMetrixs" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
